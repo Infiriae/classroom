@@ -1,0 +1,10 @@
+col{
+    border: 2px;
+    border-color: red;
+    border-style: dashed;
+}
+
+img {
+    max-height: 100px;
+    max-width: 150px;
+}
