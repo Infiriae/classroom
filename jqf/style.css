@@ -1,0 +1,18 @@
+/* thead, tr, td {
+    outline: 1px;
+    outline-color: black;
+    outline-style: dotted;
+}
+
+tr:nth-child(even) {
+    background-color: aqua;
+}
+
+tr:nth-child(odd) {
+    background-color: azure;
+} */
+
+table colgroup col.one {
+    display: none;
+    background-color: red;
+}
