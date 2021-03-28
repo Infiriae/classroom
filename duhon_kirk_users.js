@@ -8,7 +8,7 @@ users = [
             music: ["guitar", "flute"],
             dance: ["tap", "salsa"],
             television: ["Black Mirror", "Stranger Things"]
-         }
+        }
     },
     {
         fname: "Winnie",
