@@ -34,7 +34,6 @@ users = [
 ]
 var loop = 0;
 
-
 function userLanguages(data){
     for(var i in data){
         var mod = [];
@@ -92,27 +91,3 @@ userLanguages(users);
 //         }
 //     }
 // }
-
-// function userLanguages(arr,key) {
-    //     if(typeof(arr) === 'object') {
-    //         if(Array.isArray(arr) === 'true'){
-    //             console.log('Array');
-    //             for(var i = 0; i < arr.length; i++) {
-    //                 for(var o in arr[i]) {
-    //                     if(typeof(arr[i][o]) === 'string') {
-    //                         console.log(arr[i][o]);
-    //                     }
-    //                 }
-    //             }
-    //         }  else {
-    //             for(var p in arr){
-    //                 if(typeof(p) === 'string' && p.length > 2) {
-    //                     var key = p;
-    //                 }
-    //                 userLanguages(arr[p],key); 
-    //             }
-    //         }
-    //     } else {
-    //         console.log(key + " " + arr);
-    //     }  
-    // }
