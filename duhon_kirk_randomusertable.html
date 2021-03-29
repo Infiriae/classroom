@@ -11,7 +11,7 @@
                 $.get("https://randomuser.me/api/?results=20", function(results) {
                     console.log(results);
                     for(var i = 0; i < results.results.length; i++){
-                        $('#pep').append('<tr><td>' + results.results[i].name.first +' '+results.results[i].name.last+ '</td><td>'+results.results[i].dob.age+'</td><td>'+results.results[i].email+'</td><td>'+results.results[i].location.street.number+' '+results.results[i].location.street.name+' '+results.results[i].location.city+', '+results.results[i].location.state+' '+results.results[i].location.postcode+'</td></tr>');
+                        $('#pep').append('<tbody><tr><td>' + results.results[i].name.first +' '+results.results[i].name.last+ '</td><td>'+results.results[i].dob.age+'</td><td>'+results.results[i].email+'</td><td>'+results.results[i].location.street.number+' '+results.results[i].location.street.name+' '+results.results[i].location.city+', '+results.results[i].location.state+' '+results.results[i].location.postcode+'</td></tr></tbody>');
                     }
                 }, "json");
             })
@@ -28,9 +28,6 @@
                             <th>Email</th>
                             <th>Address</th>
                         </tr>
-                        <tbody>
-
-                        </tbody>
                     </table>
                 </div>
             </div>
